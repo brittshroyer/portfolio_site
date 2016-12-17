@@ -1,0 +1,65 @@
+body {
+  background: url(../images/Snowy.jpg);
+  background-size: cover;
+  font-family: 'Orbitron', sans-serif;
+  background-repeat: no-repeat;
+
+
+}
+#main{
+  margin-bottom: 0;
+}
+
+h1 {
+  font-size: 8em;
+  margin-left: 10px;
+  text-shadow: 5px 9px #8A99BF;
+
+}
+
+#footer{
+
+
+background: #000000; /* fallback for old browsers */
+background: -webkit-linear-gradient(to left, #000000 , #434343); /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to left, #000000 , #434343); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+}
+#mobile{
+  display: inline-block;
+  text-align: left;
+  margin-left: 5px;
+  color: white;
+}
+#email{
+  display: inline-block;
+  float: right;
+  margin-right: 5px;
+  color: white;
+}
+
+
+#github, #portfolio, #linkedin{
+  margin-top: 2em;
+  margin-left: 4em;
+}
+
+
+.result_hover{
+  height: 70px;
+  width: 70px;
+}
+
+
+
+
+
+
+
+
+
+
+body, html, .container-fluid {
+     height: 100%;
+}
