@@ -7,12 +7,16 @@ body {
 
 }
 
+#header{
+  margin-bottom: 5px;
+}
+
 h1 {
   font-size: 5em;
 /*   text-shadow: 5px 9px #8A99BF; */
 }
 h2{
-  font-size: 3em;
+  font-size: 2em;
 }
 
 #footer{
