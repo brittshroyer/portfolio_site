@@ -11,10 +11,13 @@ body {
 }
 
 h1 {
-  font-size: 8em;
+  font-size: 6em;
   margin-left: 10px;
-  text-shadow: 5px 9px #8A99BF;
-
+/*   text-shadow: 5px 9px #8A99BF; */
+}
+h2{
+  font-size: 4em;
+  margin-left: 30px;
 }
 
 #footer{
