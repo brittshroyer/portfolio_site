@@ -1,5 +1,5 @@
 body {
-  background: url( ../Snowy.jpg);
+  background: url( ../images/Snowy.jpg);
   background-size: cover;
   font-family: 'Orbitron', sans-serif;
   background-repeat: no-repeat;
@@ -12,19 +12,25 @@ body {
 }
 
 h1 {
-  font-size: 5em;
+  font-size: 60px;
+  font-weight: bold;
 /*   text-shadow: 5px 9px #8A99BF; */
 }
+#contact{
+  margin-top: 15px;
+  opacity: .7;
+  border-radius: 4px;
+  border-color: black;
+}
 h2{
-  font-size: 2em;
+  font-size: 30px;
+  font-weight: bold;
 }
 
-#footer{
 
-
-background: #000000; /* fallback for old browsers */
-background: -webkit-linear-gradient(to left, #000000 , #434343); /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to left, #000000 , #434343); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+#navbar{
+  opacity: 0.9;
+}
 
 
 }
