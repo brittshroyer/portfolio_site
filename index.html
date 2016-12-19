@@ -4,81 +4,79 @@
     <meta charset="utf-8">
     <title>britt shroyer</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link href="css/animate.css" rel="stylesheet">
     <link href="css/main.css" rel="stylesheet"></link>
     <link href="https://fonts.googleapis.com/css?family=Orbitron" rel="stylesheet">
-    <link href="font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet"></link>
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"></link>
 
   </head>
   <body>
-    <div class="container-fluid">
+    <!-- <div class="container-fluid"> -->
+    <div class="topSection row">
       <nav class="navbar navbar-inverse" id="navbar">
         <div class="container-fluid">
           <div class="navbar-header">
-            <a class="navbar-brand" href="#">BRITT</a>
+            <a class="navbar-brand" href="#"><span id="author">BRITT</span></a>
           </div>
-        <ul class="nav navbar-nav">
+        <ul class="nav navbar-nav" id="onPageNav">
         <li><a href="#">home</a></li>
         <li><a href="#">about</a></li>
         <li><a href="#">portfolio</a></li>
         <li><a href="#">testimonials</a></li>
         </ul>
     <ul class="nav navbar-nav navbar-right">
-      <li><a href="#"><span></span>resume</a></li>
-      <li><a href="#"><span></span>github</a></li>
-      <li><a href="#"><span></span>linkedin</a></li>
+      <li><a href="#"><i class="fa fa-github-alt fa-3x" id="githubPic" aria-hidden="true"></i></a></li>
+
+      <li><a href="#"><i class="fa fa-linkedin-square fa-3x" id="linkedinPic" aria-hidden="true"></i></a></li>
     </ul>
   </div>
 </nav>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
+
       <div class="row" id="main">
-        <div class="col-md-7 col-md-offset-2"><h1>front-end developer</h1></div>
+        <div class="col-md-8 col-md-offset-2" id="title"><h1>front-end developer</h1></div>
       </div>
       <div class="row">
         <div class="col-md-1 col-md-offset-4">
-        <button type="button" class="btn btn-default" id="contact">Contact</button>
-      </div>
-      </div>
-
-      <div class="footer navbar-fixed-bottom" id="footer">
-        <a href="#"><span></span>440.666.1648</a>
-        <a href="#" id="email"><span></span>britt.shroyer@gmail.com</a>
-      </div>
-
-      </div>
-
-      <!-- <div class="row">
-        <div class="col-md-1" id="linkedin">
-          <a href="https://www.linkedin.com/in/brittshroyer"><img src="images/linkedin-sign.png" class="icon"></img></a>
+          <button type="button" class="btn btn-default" id="contact">contact</button>
+        </div>
+        <div class="col-md-1 col-md-offset-1">
+          <button type="button" class="btn btn-default" id="contact">resume</button>
         </div>
       </div>
-
-      <br>
-      <br>
-      <div class="row">
-        <div class="col-md-1" id="github">
-          <a href="https://github.com/brittshroyer"><img src="images/github-logo.png" class="icon"></img></a>
-        </div>
+      <div class="row" id="wifi">
+        <div class="col-md-3 col-md-offset 1"><i class="fa fa-wifi fa-5x" aria-hidden="true"></i></div>
       </div>
 
-      <div class="row" id="footer" style="position:absolute; bottom: 0px; width: 100%;">
-        <div class="col-md-12">
-          <div id="mobile">
-            <h3>440.666.1648</h3>
-          </div>
-          <div id="email">
-            <h3>britt.shroyer@gmail.com</h3>
-          </div>
-        </div>
-      </div> -->
+</div>
+
+<div class="row divider"></div>
+
+<div class="row section">
+  <div class="col-md-4 aboutBlurb"></div>
+  <div class="col-md-7 col-md-offset-1 map"></div>
+</div>
+
+<div class="row divider"></div>
+
+<div class="row section">
+  <div class="col-md-4 col-md-offset-1" id="titanic">
+    <h3>Tic-Tac-Titanic</h3>
+  </div>
+  <div class="col-md-4 col-md-offset-2" id="hangIt">
+    <h3>HangIt</h3>
+  </div>
+</div>
+
+<div class="row divider"></div>
 
 
 
-    </div>
+
+
+
+
+
+
     <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
     <script src="scripts/main.js"></script>

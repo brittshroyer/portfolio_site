@@ -1,8 +1,18 @@
 $(document).ready(function(){
 
-  $('.icon').hover(function () {
-   $(this).toggleClass("result_hover");
-  });
+
+
+  setTimeout(function(){
+    $('#title').addClass('flipInX animated');
+  }, 200);
+
+// $('#title').mouseover(function(){
+//   $(this).addClass('flipInX animated');
+// });
+
+
+
+
 
 
 
