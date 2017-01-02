@@ -1,24 +1,100 @@
 body {
-  /*background: url( ../images/Snowy.jpg);
-  background-size: contain;*/
-
   font-family: 'Orbitron', sans-serif;
-  /*font-family: 'Jura', sans-serif;*/
   background-repeat: no-repeat;
-
+  color: black;
 }
 
-.topSection{
-  background: url(../images/Snowy.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  top: 0;
-  left: 0;
-  width: 105em;
-  overflow-x: hidden;
-  height: 800px;
+
+/*#githubPic{
+  margin-right: 15px;
+}
+#linkedinPic{
+  margin-right: 15px;
+}
+#onPageNav{
+  padding-top: 14px;
+}*/
+
+/*hero*/
+
+#hero{
+  height: 60em;
+  background-color: grey;
+}
+#hero h2{
+  text-align: center;
+  margin-top: 10em;
+  font-size: 3em;
+  font-weight: bold;
 }
 
+.divider{
+  height: 10em;
+  background-color: rgb(62, 110, 139);
+}
+.divider p{
+  text-align: center;
+  margin-top: 2em;
+  font-size: 2em;
+}
+.skills{
+  height: 35em;
+  background-color:red;
+}
+.typewriter{
+  height: 35em;
+  background-color: rgb(30,30,30);
+  position: relative;
+}
+.typebox{
+  display: inline-block;
+  margin-top: 11em;
+  height: 3em;
+  background-color: rgb(30,30,30);
+  color: white;
+  font-size: 1.4em;
+  font-family: 'Inconsolata', monospace;
+  width: auto;
+}
+.typebox-container{
+  text-align: center;
+}
+.portfolio{
+  background-color: black;
+  height: 30em;
+}
+.projectTitanic, .projectCare4Kids{
+  height: 20em;
+  margin-top: 5em;
+  border-radius: 1em;
+  cursor: pointer;
+}
+.projectTitanic{
+  background-color: green;
+}
+.projectCare4Kids{
+  background-color: red;
+}
+.project p{
+  text-align: center;
+  font-size: 1.5em;
+  margin-top: 5.5em;
+}
+.contact{
+  font-size: 1.6em;
+}
+.contactInfo{
+  margin-top: 4em;
+}
+
+
+
+
+/*.title{
+  display: inline-block;
+  height: 30em;
+  color:black;
+}
 .btn{
   display: inline-block;
   margin-top: 5em;
@@ -26,28 +102,14 @@ body {
   background-color: rgba(0,0,0,.7);
   border-color: black;
   font-size: 1em;
-}
+}*/
 
 
-#main{
-  margin-top: 20%;
-}
 
-#header{
+/*#header{
   margin-bottom: 5px;
-}
+}*/
 
-
-
-
-#title {
-  display: inline-block;
-  font-size: 70px;
-  font-weight: bold;
-  margin-left: 7.75em;
-  color: solid black;
-/*   text-shadow: 5px 9px #8A99BF; */
-}
 #contact{
   margin-top: 15px;
   opacity: .7;
@@ -56,48 +118,9 @@ body {
   font-size: 20px;
   font-weight: bold;
 }
-h2{
-  font-size: 30px;
-  font-weight: bold;
-}
 
-.navbar-header{
-  padding-top: 14px;
-}
 
-#author{
-  font-size: 22px;
-  margin-left: 15px;
-}
 
-#navbar{
-  opacity: 0.9;
-  font-size: 16px;
-  position: fixed;
-  width: 100%;
-  z-index: 10;
-  top: 0;
-  left: 0;
-}
-#githubPic{
-  margin-right: 15px;
-}
-#linkedinPic{
-  margin-right: 15px;
-}
-#onPageNav{
-  padding-top: 14px;
-}
-
-.topSection{
-  height: 800px;
-}
-
-.divider{
-  height: 175px;
-  background-color: rgb(62, 110, 139);
-  position: relative;
-}
 
 .profile{
   text-align: center;
@@ -115,7 +138,7 @@ h2{
 }
 .sectionMe{
   height: 400px;
-  background-color: rgb(30,30,30);
+  background-color: black;
 }
 .pic{
   height: 100%;
@@ -128,20 +151,7 @@ h2{
   margin-left: 0;
   position: relative;
 }
-.blurbBox{
-  position: relative;
-  display: inline-block;
-  background-color: rgb(30,30,30);
-  width: auto;
-  margin-top: 8.5em;
-  margin-right: 10px;
-  margin-left: -30px;
-  font-family: 'Inconsolata', monospace;
-  font-size: 20px;
-  color: rgb(62, 110, 139);
-  color: white;
 
-}
 
 /*h4{
   font-family: 'Inconsolata', monospace;
@@ -152,9 +162,9 @@ h2{
 .typed-cursor{
     opacity: 1;
     color: white;
-    -webkit-animation: blink 0.5s infinite;
+    -webkit-animation: blink 0.7s infinite;
     -moz-animation: blink 0.7s infinite;
-    animation: blink 0.5s infinite;
+    animation: blink 0.7s infinite;
 }
 @keyframes blink{
     0% { opacity:1; }
@@ -173,7 +183,7 @@ h2{
 }
 
 
-
+/*
 .portfolio {
   text-align: center;
   position: absolute;
@@ -182,7 +192,7 @@ h2{
   height: 82px;
   margin-top: 70px;
   font-size: 35px;
-}
+}*/
 
 #titanic, #care4Kids{
   height: 50%;
@@ -204,7 +214,7 @@ h2{
   margin-top: 30%;
 }
 
-.contactMe{
+/*.contactMe{
   height: 10em;
   background-color: rgb(62, 110, 139);
 }
@@ -223,4 +233,4 @@ h2{
 #digits, #email{
   font-size: 20px;
   padding-left: .9em;
-}
+}*/
