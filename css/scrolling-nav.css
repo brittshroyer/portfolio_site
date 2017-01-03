@@ -31,11 +31,11 @@ html {
 The padding is very important to make sure the scrollspy picks up the right area when scrolled to. Adjust the margin and padding of sections and children
 of those sections to manage the look and feel of the site. */
 #githubPic{
-  margin-right: 20px;
+  margin-right: .75em;
 }
 .page-scroll{
-  font-size: 20px;
-  margin-bottom: -20px;
+  font-size: 1.25em;
+  margin-bottom: -.75em;
 }
 
 .intro-section {
