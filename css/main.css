@@ -1,3 +1,4 @@
+
 body {
   font-family: 'Orbitron', sans-serif;
   background-repeat: no-repeat;
@@ -7,22 +8,25 @@ body {
 #resume{
   font-size: 1.25em;
 }
-
-/*hero*/
+#linkedinPic{
+  margin-right: .5em;
+}
 
 #hero{
-  height: 60em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
   background-color: #778999;
 }
 #hero h2{
   text-align: center;
-  margin-top: 10em;
-  font-size: 3em;
-  font-weight: bold;
 }
 
+
 .divider{
-  height: 10em;
+  top: 0;
+  height: 12vh;
   background-color: rgb(62, 110, 139);
   background-color: #6E6B66;
 }
@@ -33,21 +37,29 @@ body {
 }
 .skills{
   height: 35em;
-  background-color:#778999;
+  background-color: #6E6B66;
+  position: relative;
 }
 .skills h3{
   text-align: center;
   font-size: 2em;
-  padding: .75em 0 1.3em 0;
+  padding: .75em 0 .75em 0;
 }
 .skill p{
-  text-align: center;
-  font-size: 1.5em;
+  font-size: 1.1em;
+  text-align: left;
+  margin-left: 1.3em;
+
 }
 .skill{
-  background-color: #778999;
+  background-color: white;
+  margin-bottom: 1em;
+  box-shadow: 8px 8px 3px black
 }
 .heading{
+  background-color: #6E6B66;
+}
+.toolkit{
   background-color: #778999;
 }
 
@@ -70,67 +82,112 @@ body {
   text-align: center;
 }
 .portfolio{
-  background-color: rgb(30,30,30);
-  background-color: white;
-  height: 32em;
+  background-color: grey;
+  /*background-color: white;*/
+  height: 75vh;
+}
+
+.projectheader p {
+  text-align: center;
+  font-size: 2em;
 }
 .projectTitanic, .projectCare4Kids{
-  height: 20em;
-  margin-top: 5em;
+  height: 10em;
   cursor: pointer;
+  width: 10em;
+  margin-top: 2em;
+}
+.care p{
+  text-align: center;
 }
 .projectTitanic{
   background-color: #275AA3;
   position: relative;
-  overflow: hidden;
+  height: 9.5em;
+  width: 9.5em;
+  /*overflow: hidden;*/
   border-radius: 50%;
+}
+.tic-tac p{
+  margin-top: 6em;
+  margin-left: 2.5em;
+  font-family: 'Bungee', cursive;
+  text-align: center;
+}
+.projectTitanic p{
+  margin-top: 2em;
 }
 /* Bubbles */
 .bubbles {
   position: absolute;
-  bottom: -7em;
-  z-index: 5;
-  /*margin-right: 50px;*/
   background-color: white;
   border-radius: 50%;
   opacity: .50;
-  width: 15px;
-  height: 15px;
+  width: 5px;
+  height: 5px;
   animation: up 8s infinite;
+  margin-top: 10em;
 }
 
 .bubble-2 {
-  /*left: 350px;*/
   animation: up 6s infinite;
-  margin-left: 7em;
+  margin-left: 4em;
+  width: 8px;
+  height: 8px;
 }
 
 .bubble-3 {
-  /*left: 750px;*/
-  margin-left: 20em;
   opacity: .30;
-  animation: up 8s infinite;
+  animation: up 9s infinite;
+  margin-left: 6em;
+  width: 6px;
+  height: 6px;
+}
+.bubble-4 {
+  width: 7px;
+  height: 7px;
+  margin-left: 5em;
+  opacity: .60;
+  animation: up 12s infinite;
+}
+.bubble-5 {
+  width: 4px;
+  height: 4px;
+  margin-left: 5.5em;
+  opacity: .45;
+  animation: up 10s infinite;
 }
 @keyframes up {
   100% {
-    transform: translateY(-50em);
+    transform: translateY(-14em);
   }
+}
+.projectheader{
+  margin-top: 3em;
 }
 .projectCare4Kids{
   background: url("../images/Care4Kids.png");
   background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+  margin-top: 3em;
+
+}
+.careproject{
+  margin-bottom: 3em;
+}
+.care p{
+  font-family: 'Quicksand', sans-serif;
+  font-size: 1.2em;
+  margin-top: 7em;
+  margin-left: 2.5em;
 }
 .project p{
   text-align: center;
   font-size: 1.5em;
   margin-top: 5.5em;
-  font-family: 'Bungee', cursive;
 }
-.projectCare4Kids p{
-  padding-right: 2.5em;
-  font-family: 'Quicksand', sans-serif;
-  font-size: 1.6em;
-}
+
 .contact{
   font-size: 1.6em;
 }
@@ -139,6 +196,28 @@ body {
 }
 a{
   color: black;
+}
+.footer{
+  height: 25em;
+  background-color: black;
+
+}
+.footer p{
+  color: white;
+  text-align: center;
+  font-size: 2em;
+  margin-top: 2em;
+}
+.getintouch{
+  height: 10em;
+  margin-top: 3em;
+  background-color: grey;
+  align-items: center;
+}
+.getintouch p, .getintouch a{
+  font-size: 1em;
+  text-align: center;
+  margin-top: -.25em;
 }
 
 .typed-cursor{

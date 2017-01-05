@@ -1,14 +1,16 @@
+
 <!DOCTYPE html>
 <html>
   <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Britt Shroyer</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link href="css/animate.css" rel="stylesheet">
     <link href="css/main.css" rel="stylesheet"></link>
     <link href="https://fonts.googleapis.com/css?family=Orbitron" rel="stylesheet" />
     <link href="https://fonts.googleapis.com/css?family=Inconsolata" rel="stylesheet" />
-    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"></link>
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Bungee" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Oswald:300,400,700|Quicksand:300,400" rel="stylesheet">
     <link href="css/scrolling-nav.css" rel="stylesheet"/>
@@ -16,75 +18,70 @@
 
   </head>
   <body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
-  <div class="container-fluid">
+    <div class="row">
+      <div class="navbar-container">
+        <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
 
-    <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
-        <div class="container">
-            <div class="navbar-header page-scroll">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a class="navbar-brand page-scroll" href="#page-top">home</a>
-            </div>
+                <div class="navbar-header page-scroll">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand page-scroll" href="#page-top">BRITT</a>
+                </div>
 
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse navbar-ex1-collapse">
-                <ul class="nav navbar-nav">
-                    <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
-                    <li class="hidden">
-                        <a class="page-scroll" href="#page-top">home</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll about-section" href="#about">about</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll porfolio-section" href="#portfolio">portfolio</a>
-                    </li>
-                    <li>
-                      <a target="_blank" href="documents/britt_shroyer_resume.pdf" id="resume">resume</a>
-                    </li>
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse navbar-ex1-collapse">
+                    <ul class="nav navbar-nav">
+                        <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
+                        <li class="hidden">
+                            <a class="page-scroll" href="#page-top">home</a>
+                        </li>
+                        <li>
+                            <a class="page-scroll about-section" href="#about">about</a>
+                        </li>
+                        <li>
+                            <a class="page-scroll porfolio-section" href="#portfolio">projects</a>
+                        </li>
+                        <li>
+                            <a class="page-scroll contact-section" href="#contact">contact</a>
+                        </li>
+                        <li>
+                          <a target="_blank" href="documents/britt_shroyer_resume.pdf" id="resume">resume</a>
+                        </li>
 
-                </ul>
-                <ul class="nav navbar-nav navbar-right">
-                  <li><a target="_blank" href="https://github.com/brittshroyer"><i class="media fa fa-github-alt fa-3x" id="githubPic" aria-hidden="true"></i></a></li>
-                  <li><a target="_blank" a href="https://www.linkedin.com/in/brittshroyer"><i class="media fa fa-linkedin-square fa-3x" id="linkedinPic" aria-hidden="true"></i></a></li>
-                </ul>
-            </div>
-            <!-- /.navbar-collapse -->
-        </div>
-        <!-- /.container -->
-    </nav>
-    <!-- start hero -->
-      <div class="row">
-        <div class="col-md-12" id="hero">
-          <h2>front-end developer.</h2>
+                    </ul>
+                    <ul class="nav navbar-nav navbar-right">
+                      <li><a target="_blank" href="https://github.com/brittshroyer"><i class="media fa fa-github-alt fa-3x" id="githubPic" aria-hidden="true"></i></a></li>
+                      <li><a target="_blank" a href="https://www.linkedin.com/in/brittshroyer"><i class="media fa fa-linkedin-square fa-3x" id="linkedinPic" aria-hidden="true"></i></a></li>
+                    </ul>
+                </div>
+                <!-- /.navbar-collapse -->
+            <!-- </div> -->
+            <!-- /.container -->
+        </nav>
       </div>
+
     </div>
 
-<div class="row" id="about">
-  <div class="col-md-12 divider aboutDivider">
+
+
+    <!-- start hero -->
+      <div class="row top">
+        <div class="col-xs-12" id="hero">
+          <h2>front-end developer.</h2>
+        </div>
+      </div>
+
+<!-- <div class="row" id="about">
+  <div class="col-xs-12 divider aboutDivider">
     <p>about</p>
   </div>
-</div>
+</div> -->
 
-<div class="row toolkit">
-  <div class="col-md-4 skills">
-    <div class="row heading">
-      <h3>technical skills</h3>
-    </div>
-    <div class="row skill"><p>html5</p></div>
-    <div class="row skill"><p>css3</p></div>
-    <div class="row skill"><p>bootstrap</p></div>
-    <div class="row skill"><p>javascript</p></div>
-    <div class="row skill"><p>jquery</p></div>
-    <div class="row skill"><p>node.js</p></div>
-    <div class="row skill"><p>ajax</p></div>
-    <div class="row skill"><p>git</p></div>
-    <div class="row skill"><p>chrome devtools</p></div>
-  </div>
+<div class="row toolkit" id="about">
   <div class="col-md-8 typewriter">
     <div class="row">
       <div class="col-md-12 container typebox-container">
@@ -92,32 +89,89 @@
     </div>
   </div>
   </div>
+  <div class="col-md-4 skills">
+    <div class="row heading">
+      <h3>technical skills</h3>
+    </div>
+    <div class="row skill" style="width: 90%">
+      <p>html5 &amp; css3</p>
+    </div>
+    <div class="row skill" style="width: 80%">
+      <p>bootstrap</p>
+    </div>
+    <div class="row skill" style="width: 70%">
+      <p>javascript</p>
+    </div>
+    <div class="row skill" style="width: 65%">
+      <p>jquery</p>
+    </div>
+    <div class="row skill" style="width: 80%">
+      <p>git</p>
+    </div>
+    <div class="row skill" style="width: 55%">
+      <p>react</p>
+    </div>
+    <div class="row skill" style="width: 30%">
+      <p>angularjs</p>
+    </div>
+    <div class="row skill" style="width: 75%">
+      <p>chrome devtools</p>
+    </div>
+  </div>
+
 </div>
+
+<!-- <div class="row" id="portfolio">
+  <div class="col-xs-12 divider portfolioDivider">
+    <p>projects</p>
+  </div>
+</div> -->
 
 <div class="row" id="portfolio">
-  <div class="col-md-12 divider portfolioDivider">
-    <p>portfolio</p>
-  </div>
-</div>
-
-<div class="row">
-  <div class="col-md-12 portfolio">
+  <div class="col-xs-12">
     <div class="row">
-      <div class="col-md-3 col-md-offset-2 project projectTitanic">
-        <p>Tic-Tac-Titanic</p>
+      <div class="col-xs-12 projectheader"><p>projects</p></div>
+    </div>
+    <div class="row">
+      <div class="col-xs-6 col-md-4 col-md-offset-3 tic-tac"><p>Tic-Tac-Titanic</p></div>
+      <div class="col-xs-6 col-md-5 project projectTitanic">
+
         <div class="bubbles bubble-1"></div>
         <div class="bubbles bubble-2"></div>
         <div class="bubbles bubble-3"></div>
+        <div class="bubbles bubble-4"></div>
+        <div class="bubbles bubble-5"></div>
       </div>
-      <div class="col-md-3 col-md-offset-2 project projectCare4Kids"><p>Care For Kids</p></div>
+    </div>
+
+
+
+    <div class="row careproject">
+      <div class="col-xs-6 col-md-4 col-md-offset-3 care project"><p>Care For Kids</p></div>
+      <div class="col-xs-6 col-md-5 project projectCare4Kids"></div>
     </div>
   </div>
 </div>
 
-<div class="row">
-  <div class="col-md-12 divider contactSection">
+<div class="row footer" id="contact">
+  <p class="footerTitle">Get In Touch</p>
+  <div class="col-xs-6 col-xs-offset-3 getintouch">
+    <p>
+      <i class= "fa fa-phone"></i><br>
+      <a href="tel:4406661648">440-666-1648</a> <br><br><br>
+      <i class="fa fa-envelope"></i><br>
+      <a href="mailto:britt.shroyer@gmail.com">britt.shroyer@gmail.com</a>
+    </p>
+  </div>
+
+</div>
+
+
+
+<!-- <div class="row">
+  <div class="col-xs-12 divider contactSection">
     <div class="row contactInfo">
-      <div class="col-md-1 col-md-offset-1 phone">
+      <div class="col-xs-1 col-md-offset-1 phone">
         <i class="fa fa-phone fa-2x" aria-hidden="true"></i>
       </div>
       <div class="col-md-2">
@@ -131,9 +185,8 @@
       </div>
     </div>
   </div>
-</div>
+</div> -->
 
-</div>
 
     <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>

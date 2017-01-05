@@ -1,8 +1,8 @@
 $(document).ready(function(){
 
-  setTimeout(function(){
-    $('#title').addClass('flipInX animated');
-  }, 10);
+  // setTimeout(function(){
+  //   $('#title').addClass('flipInX animated');
+  // }, 10);
 
   $('#titanic').on('mouseover', function(){
     $(this).css('background-color', 'rgba(0,140,84,1)');
@@ -27,7 +27,7 @@ var i=0;
   $(window).scroll(function() {
     if (($(window).scrollTop()  > $(window).height() / 2) && i<1) {
       $(".typebox").typed({
-        strings: ["Hi, I'm Britt. Thanks for visiting my site!","Those that know me describe me as easy-going, venturesome, and independent.", "There are only a few things that I enjoy more than Chipotle or my bulldog...", "The important ones include: traveling, music, snowboarding, camping, and coding.", "I value originality and creativity, which is why I've found programming to be so rewarding and empowering.", "Please feel free to contact me at the number or email below.", ": )"],
+        strings: ["Hi, I'm Britt. Thanks for visiting my site!","Those that know me describe me as easy-going, venturesome, and independent.", "There are only a few things that I enjoy more than Chipotle...", "The important ones include: traveling, music, snowboarding, camping, and coding.", "I value originality and creativity...", "Which is why I've found programming to be so rewarding and empowering.", "Please feel free to contact me at the number or email below.", ": )"],
         typeSpeed: 50,
         showCursor: true,
         cursorChar: "|",
@@ -49,7 +49,7 @@ var i=0;
         $('a.page-scroll').bind('click', function(event) {
             var $anchor = $(this);
             $('html, body').stop().animate({
-                scrollTop: $($anchor.attr('href')).offset().top - $('.skill').height()
+                scrollTop: $($anchor.attr('href')).offset().top - $('.footerTitle').height()
             }, 1500, 'easeInOutExpo');
             event.preventDefault();
         });
