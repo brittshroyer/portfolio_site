@@ -4,6 +4,14 @@ body {
   background-repeat: no-repeat;
   color: black;
 }
+.navbar{
+  /*background-image: url("../images/zwart.jpg");*/
+  border-color: black;
+  background-color: rgba(255,255,255,.6);
+  /*background-color: white;*/
+  color: black;
+  border-style: none;
+}
 
 #resume{
   font-size: 1.25em;
@@ -17,10 +25,34 @@ body {
   align-items: center;
   justify-content: center;
   height: 100vh;
-  background-color: #778999;
+  background-image: url("../images/hero-image.jpg");
+  background-size: 100% 100%;
+
+  /*background-position: bottom;*/
+  /*margin-top: 3em;*/
 }
-#hero h2{
+#hero h1{
   text-align: center;
+}
+.fa-arrow-down{
+  color: rgba(30,30,30,.6);
+
+}
+.downArrow {
+    position: absolute;
+    margin: auto;
+    bottom: 0;
+    width: 75px;
+    height: 75px;
+    font-size: 75px;
+    line-height: 75px;
+
+    -webkit-animation: bounce 2s infinite ease-in-out;
+}
+@-webkit-keyframes bounce {
+	0%, 20%, 60%, 100%  { -webkit-transform: translateY(0); }
+    40%  { -webkit-transform: translateY(-20px); }
+	80% { -webkit-transform: translateY(-10px); }
 }
 
 
@@ -37,8 +69,12 @@ body {
 }
 .skills{
   height: 35em;
-  background-color: #6E6B66;
+  background-image: url("../images/binding-light.png");
   position: relative;
+}
+.heading{
+  background-image: url("../images/binding-light.png");
+
 }
 .skills h3{
   text-align: center;
@@ -49,30 +85,65 @@ body {
   font-size: 1.1em;
   text-align: left;
   margin-left: 1.3em;
+  color: #C7CFD9;
 
 }
+
+
+
 .skill{
-  background-color: white;
+  background-color: #002261;
   margin-bottom: 1em;
-  box-shadow: 8px 8px 3px black
+  box-shadow: 8px 8px 3px grey;
+  border-radius: 0 8px 8px 0;
 }
-.heading{
-  background-color: #6E6B66;
+.short{
+  display: none;
 }
-.toolkit{
-  background-color: #778999;
+
+@keyframes skill1 {
+  from { margin-right: 100%; }
+  to   { margin-right: 15%; }
+}
+@keyframes skill2 {
+  from { margin-right: 100%; }
+  to   { margin-right: 20%; }
+}
+@keyframes skill3 {
+  from { margin-right: 100%; }
+  to   { margin-right: 30%; }
+}
+@keyframes skill4 {
+  from { margin-right: 100%; }
+  to   { margin-right: 35%; }
+}
+@keyframes skill5 {
+  from { margin-right: 100%; }
+  to   { margin-right: 20%; }
+}
+@keyframes skill6 {
+  from { margin-right: 100%; }
+  to   { margin-right: 45%; }
+}
+@keyframes skill7 {
+  from { margin-right: 100%; }
+  to   { margin-right: 70%; }
+}
+@keyframes skill8 {
+  from { margin-right: 100%; }
+  to   { margin-right: 25%; }
 }
 
 .typewriter{
   height: 35em;
-  background-color: rgb(30,30,30);
+  background-image: url("../images/zwart.jpg");
   position: relative;
 }
 .typebox{
   display: inline-block;
   margin-top: 11em;
   height: 3em;
-  background-color: rgb(30,30,30);
+  background-color: rgba(0,0,0,0);
   color: white;
   font-size: 1.4em;
   font-family: 'Inconsolata', monospace;
@@ -86,6 +157,10 @@ body {
   /*background-color: white;*/
   height: 75vh;
 }
+#portfolio{
+  background-image: url("../images/p6.png");
+}
+
 
 .projectheader p {
   text-align: center;
@@ -199,23 +274,24 @@ a{
 }
 .footer{
   height: 25em;
-  background-color: black;
+  background-color: #186885;
 
 }
 .footer p{
-  color: white;
+
   text-align: center;
-  font-size: 2em;
+  font-size: 2.5em;
   margin-top: 2em;
+  font-weight: bold;
 }
 .getintouch{
   height: 10em;
   margin-top: 3em;
-  background-color: grey;
+  background-color: #186885;
   align-items: center;
 }
 .getintouch p, .getintouch a{
-  font-size: 1em;
+  font-size: 1.2em;
   text-align: center;
   margin-top: -.25em;
 }

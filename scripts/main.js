@@ -26,12 +26,21 @@ var i=0;
 
   $(window).scroll(function() {
     if (($(window).scrollTop()  > $(window).height() / 2) && i<1) {
+      $('.skill').removeClass('short');
+      $('.skill1').css('animation', 'skill1 2s');
+      $('.skill2').css('animation', 'skill2 2s');
+      $('.skill3').css('animation', 'skill3 2s');
+      $('.skill4').css('animation', 'skill4 2s');
+      $('.skill5').css('animation', 'skill5 2s');
+      $('.skill6').css('animation', 'skill6 2s');
+      $('.skill7').css('animation', 'skill7 2s');
+      $('.skill8').css('animation', 'skill8 2s');
       $(".typebox").typed({
-        strings: ["Hi, I'm Britt. Thanks for visiting my site!","Those that know me describe me as easy-going, venturesome, and independent.", "There are only a few things that I enjoy more than Chipotle...", "The important ones include: traveling, music, snowboarding, camping, and coding.", "I value originality and creativity...", "Which is why I've found programming to be so rewarding and empowering.", "Please feel free to contact me at the number or email below.", ": )"],
-        typeSpeed: 50,
+        strings: ["Hello, I'm Britt, a front-end developer currently in Austin, TX.","Those that know me describe me as easy-going, venturesome, quick-witted, and independent.", "There are only a few things that I enjoy more than Chipotle...", "That list includes: traveling, music, snowboarding, coding, and my bulldog, Hugo.", "I really value originality, and I've always pushed myself to take risks.", "Which is why I've found web development to be so rewarding and empowering.", ": )"],
+        typeSpeed: 25,
         showCursor: true,
         cursorChar: "|",
-        backDelay: 1800
+        backDelay: 1500
       })
       i++;
     }
