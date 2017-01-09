@@ -22,6 +22,22 @@ $(document).ready(function(){
     console.log("resume buttton working");
   });
 
+  $('.care4kids').on('mouseover', function(){
+    $('.c').fadeIn( "fast", "linear" );
+  });
+
+  $('.ttt').on('mouseover', function(){
+    $('.t').fadeIn( "fast", "linear" );
+  });
+
+  $('.cover').on('mouseout', function(){
+    $(this).fadeOut( "fast", "linear" );
+  });
+
+
+
+});
+
 var i=0;
 
   $(window).scroll(function() {
@@ -36,7 +52,7 @@ var i=0;
       $('.skill7').css('animation', 'skill7 2s');
       $('.skill8').css('animation', 'skill8 2s');
       $(".typebox").typed({
-        strings: ["Hello, I'm Britt, a front-end developer currently in Austin, TX.","Those that know me describe me as easy-going, venturesome, quick-witted, and independent.", "There are only a few things that I enjoy more than Chipotle...", "That list includes: traveling, music, snowboarding, coding, and my bulldog, Hugo.", "I really value originality, and I've always pushed myself to take risks.", "Which is why I've found web development to be so rewarding and empowering.", ": )"],
+        strings: ["Hello, I'm Britt, a front-end developer in Austin, TX.","Those that know me describe me as easy-going, venturesome, and independent.", "There are only a few things that I enjoy more than Chipotle...", "That list includes: traveling, music, snowboarding, coding, and my bulldog, Hugo.", "I really value originality, and I've always pushed myself to take risks.", "Which is why I've found web development to be so rewarding and empowering.", ": )"],
         typeSpeed: 25,
         showCursor: true,
         cursorChar: "|",
@@ -64,13 +80,9 @@ var i=0;
         });
     });
 
-    $('.project').on('mouseover', function(){
-      $(this).addClass('rubberBand animated');
-    });
-    $('.project').on('mouseout', function(){
-      $(this).removeClass('rubberBand animated');
-    });
 
-  });
+
+
+  // });
 
 });

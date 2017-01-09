@@ -14,10 +14,14 @@
     <link href="https://fonts.googleapis.com/css?family=Bungee" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Oswald:300,400,700|Quicksand:300,400" rel="stylesheet">
     <link href="css/scrolling-nav.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="css/slick-theme.css" />
+    <link rel="stylesheet" href="css/slick.css" />
     <link rel="icon" href="images/favicon.png" />
 
   </head>
+  <!-- <div class="container"> -->
   <body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+
     <div class="row">
       <div class="navbar-container">
         <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
@@ -32,10 +36,8 @@
                     <a class="navbar-brand page-scroll" href="#page-top">BRITT</a>
                 </div>
 
-                <!-- Collect the nav links, forms, and other content for toggling -->
                 <div class="collapse navbar-collapse navbar-ex1-collapse">
                     <ul class="nav navbar-nav">
-                        <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
                         <li class="hidden">
                             <a class="page-scroll" href="#page-top">home</a>
                         </li>
@@ -54,35 +56,28 @@
 
                     </ul>
                     <ul class="nav navbar-nav navbar-right">
-                      <li><a target="_blank" href="https://github.com/brittshroyer"><i class="media fa fa-github-alt fa-3x" id="githubPic" aria-hidden="true"></i></a></li>
-                      <li><a target="_blank" a href="https://www.linkedin.com/in/brittshroyer"><i class="media fa fa-linkedin-square fa-3x" id="linkedinPic" aria-hidden="true"></i></a></li>
+                      <li><a target="_blank" href="https://github.com/brittshroyer"><i class="media fa fa-github-alt fa-2x" id="githubPic" aria-hidden="true"></i></a></li>
+                      <li><a target="_blank" a href="https://www.linkedin.com/in/brittshroyer"><i class="media fa fa-linkedin-square fa-2x" id="linkedinPic" aria-hidden="true"></i></a></li>
                     </ul>
                 </div>
-                <!-- /.navbar-collapse -->
-            <!-- </div> -->
-            <!-- /.container -->
+
         </nav>
       </div>
 
     </div>
 
-
-
-    <!-- start hero -->
       <div class="row top">
         <div class="col-xs-12" id="hero">
-          <!-- <h1> < front-end developer > </h1> -->
-          <div class="downArrow"><i class="fa fa-arrow-down" aria-hidden="true"></i></div>
+
+          <p><i class="fa fa-caret-down fa-3x" aria-hidden="true" id="about"></i></p>
         </div>
       </div>
 
-<!-- <div class="row" id="about">
-  <div class="col-xs-12 divider aboutDivider">
-    <p>about</p>
-  </div>
-</div> -->
+<div class="row divider">
+  <h2>About</h2>
+</div>
 
-<div class="row toolkit" id="about">
+<div class="row toolkit">
   <div class="col-md-8 typewriter">
     <div class="row">
       <div class="col-md-12 container typebox-container">
@@ -91,109 +86,76 @@
   </div>
   </div>
   <div class="col-md-4 skills">
-    <div class="row heading">
-      <h3>Skills</h3>
-    </div>
-    <div class="row short skill skill1" style="margin-right:15%">
+    <div class="row short skill skill1" style="margin-right:20%">
       <p>html5/css3</p>
     </div>
-    <div class="row short skill skill2" style="margin-right:20%">
+    <div class="row short skill skill2" style="margin-right:25%">
       <p>bootstrap</p>
     </div>
-    <div class="row short skill skill3" style="margin-right: 30%">
+    <div class="row short skill skill3" style="margin-right: 33%">
       <p>javascript</p>
     </div>
-    <div class="row short skill skill4" style="margin-right: 35%">
+    <div class="row short skill skill4" style="margin-right: 40%">
       <p>jquery</p>
     </div>
-    <div class="row short skill skill5" style="margin-right: 20%">
+    <div class="row short skill skill5" style="margin-right: 25%">
       <p>git</p>
     </div>
-    <div class="row short skill skill6" style="margin-right: 45%">
+    <div class="row short skill skill6" style="margin-right: 55%">
       <p>react</p>
     </div>
-    <div class="row short skill skill7" style="margin-right: 70%">
+    <div class="row short skill skill7" style="margin-right: 75%">
       <p>angularjs</p>
     </div>
-    <div class="row short skill skill8" style="margin-right: 25%">
+    <div class="row short skill skill8" id="portfolio" style="margin-right: 25%">
       <p>chrome&nbsp;devtools</p>
     </div>
   </div>
 
 </div>
 
-<!-- <div class="row" id="portfolio">
-  <div class="col-xs-12 divider portfolioDivider">
-    <p>projects</p>
-  </div>
-</div> -->
-
-<div class="row" id="portfolio">
-  <div class="col-xs-12">
+  <div class="row portfolio">
+    <h3>Projects</h3>
     <div class="row">
-      <div class="col-xs-12 col-md-5 projectheader"><p>projects</p></div>
-    </div>
-    <div class="row">
-      <div class="col-xs-6 col-md-4 col-md-offset-3 tic-tac"><p>Tic-Tac-Titanic</p></div>
-      <div class="col-xs-6 col-md-5 project projectTitanic">
+      <div class="col-md-3 col-md-offset-2 col-xs-6 col-xs-offset-3">
+        <div class="project care4kids">
+          <div class="cover c">
+            <h2>Care For Kids</h2>
+            <p>On demand healthcare consulting for students.</p>
 
-        <div class="bubbles bubble-1"></div>
-        <div class="bubbles bubble-2"></div>
-        <div class="bubbles bubble-3"></div>
-        <div class="bubbles bubble-4"></div>
-        <div class="bubbles bubble-5"></div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3 col-md-offset-2 col-xs-6 col-xs-offset-3">
+        <div class="project ttt">
+          <div class="cover t">
+            <h2>Tic-Tac-Titanic</h2>
+            <p>Tic-Tac-Toe with some CSS twists. Make sure to play to 3!</p>
+
+          </div>
+        </div>
       </div>
     </div>
-
-
-
-    <div class="row careproject">
-      <div class="col-xs-6 col-md-4 col-md-offset-3 care project"><p>Care For Kids</p></div>
-      <div class="col-xs-6 col-md-5 project projectCare4Kids"></div>
-    </div>
   </div>
-</div>
 
 <div class="row footer" id="contact">
-  <p class="footerTitle">Get In Touch</p>
-  <div class="col-xs-6 col-xs-offset-3 getintouch">
+  <p class="footerTitle"><h2>Get In Touch</h2></p>
     <p>
       <i class= "fa fa-phone"></i><br>
-      <a href="tel:4406661648">440-666-1648</a> <br><br><br>
+      <a href="tel:4406661648">440-666-1648</a><br><br>
       <i class="fa fa-envelope"></i><br>
-      <a href="mailto:britt.shroyer@gmail.com">britt.shroyer@gmail.com</a>
+      <a href="mailto:britt.shroyer@gmail.com" class="email">britt.shroyer@gmail.com</a>
     </p>
-  </div>
-
 </div>
-
-
-
-<!-- <div class="row">
-  <div class="col-xs-12 divider contactSection">
-    <div class="row contactInfo">
-      <div class="col-xs-1 col-md-offset-1 phone">
-        <i class="fa fa-phone fa-2x" aria-hidden="true"></i>
-      </div>
-      <div class="col-md-2">
-        <span class="contact"><a href="tel:4406661648">440-666-1648</a></span>
-      </div>
-      <div class="col-md-1 col-md-offset-3 email">
-        <i class="fa fa-envelope fa-2x" aria-hidden="true"></i>
-      </div>
-      <div class="col-md-2">
-        <span class="contact"><a href="mailto:britt.shroyer@gmail.com">britt.shroyer@gmail.com</a></span>
-      </div>
-    </div>
-  </div>
-</div> -->
-
 
     <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
     <script src="scripts/typed.js"></script>
     <script src="scripts/jquery.easing.min.js"></script>
     <script src="scripts/jquery.easing.compatibility.js"></script>
+    <!-- <script src="scripts/slick.min.js"></script> -->
+    <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
     <script src="scripts/main.js"></script>
+  <!-- </div> -->
   </body>
 </html>

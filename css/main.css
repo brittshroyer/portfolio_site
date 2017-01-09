@@ -5,50 +5,51 @@ body {
   color: black;
 }
 .navbar{
-  /*background-image: url("../images/zwart.jpg");*/
-  border-color: black;
-  background-color: rgba(255,255,255,.6);
-  /*background-color: white;*/
-  color: black;
+  background-color: rgba(255,255,255,.7);
+  /*background-color: rgba(0,0,0,.75);*/
   border-style: none;
 }
 
+.navbar-header a{
+  padding-left: 1.25em;
+}
 #resume{
   font-size: 1.25em;
 }
 #linkedinPic{
+  margin-right: 1em;
+}
+#githubPic{
   margin-right: .5em;
 }
 
 #hero{
-  display: flex;
-  align-items: center;
-  justify-content: center;
   height: 100vh;
   background-image: url("../images/hero-image.jpg");
   background-size: 100% 100%;
 
-  /*background-position: bottom;*/
-  /*margin-top: 3em;*/
+}
+#hero p{
+  display: block;
+  position: absolute;
+  bottom: 0;
+  left: 49.5%;
 }
 #hero h1{
-  text-align: center;
+  padding-left: 175px;
+  padding-top: 75px;
+  font-size: 50px;
+  display: block;
 }
+
+.fa-caret-down{
+  -webkit-animation: bounce 2s infinite ease-in-out;
+}
+
 .fa-arrow-down{
-  color: rgba(30,30,30,.6);
-
+  color: rgba(255,255,255,.1);
 }
-.downArrow {
-    position: absolute;
-    margin: auto;
-    bottom: 0;
-    width: 75px;
-    height: 75px;
-    font-size: 75px;
-    line-height: 75px;
 
-    -webkit-animation: bounce 2s infinite ease-in-out;
-}
 @-webkit-keyframes bounce {
 	0%, 20%, 60%, 100%  { -webkit-transform: translateY(0); }
     40%  { -webkit-transform: translateY(-20px); }
@@ -57,44 +58,32 @@ body {
 
 
 .divider{
-  top: 0;
-  height: 12vh;
-  background-color: rgb(62, 110, 139);
-  background-color: #6E6B66;
+  height: 20vh;
+  background-color: #186885;
 }
-.divider p{
+.divider h2{
+  font-size: 2.5em;
   text-align: center;
-  margin-top: 2em;
-  font-size: 2em;
-}
-.skills{
-  height: 35em;
-  background-image: url("../images/binding-light.png");
-  position: relative;
-}
-.heading{
-  background-image: url("../images/binding-light.png");
+  vertical-align: middle;
+  line-height: 15vh;
 
 }
-.skills h3{
-  text-align: center;
-  font-size: 2em;
-  padding: .75em 0 .75em 0;
+
+.skills{
+  height: 35em;
+  background-color: #830300;
+  position: relative;
 }
 .skill p{
   font-size: 1.1em;
   text-align: left;
   margin-left: 1.3em;
-  color: #C7CFD9;
-
+  color: black;
 }
-
-
-
 .skill{
-  background-color: #002261;
-  margin-bottom: 1em;
-  box-shadow: 8px 8px 3px grey;
+  background-color: #A9A9A9;
+  margin-bottom:2.25em;
+  box-shadow: 8px 8px 3px black;
   border-radius: 0 8px 8px 0;
 }
 .short{
@@ -103,31 +92,31 @@ body {
 
 @keyframes skill1 {
   from { margin-right: 100%; }
-  to   { margin-right: 15%; }
+  to   { margin-right: 20%; }
 }
 @keyframes skill2 {
   from { margin-right: 100%; }
-  to   { margin-right: 20%; }
+  to   { margin-right: 25%; }
 }
 @keyframes skill3 {
   from { margin-right: 100%; }
-  to   { margin-right: 30%; }
+  to   { margin-right: 33%; }
 }
 @keyframes skill4 {
   from { margin-right: 100%; }
-  to   { margin-right: 35%; }
+  to   { margin-right: 40%; }
 }
 @keyframes skill5 {
   from { margin-right: 100%; }
-  to   { margin-right: 20%; }
+  to   { margin-right: 25%; }
 }
 @keyframes skill6 {
   from { margin-right: 100%; }
-  to   { margin-right: 45%; }
+  to   { margin-right: 55%; }
 }
 @keyframes skill7 {
   from { margin-right: 100%; }
-  to   { margin-right: 70%; }
+  to   { margin-right: 75%; }
 }
 @keyframes skill8 {
   from { margin-right: 100%; }
@@ -153,103 +142,70 @@ body {
   text-align: center;
 }
 .portfolio{
-  background-color: grey;
-  /*background-color: white;*/
-  height: 75vh;
+  background-image: url("../images/mochagrunge.png");
+  height: auto;
 }
-#portfolio{
-  background-image: url("../images/p6.png");
+.portfolio h3{
+  text-align: center;
+  font-size: 2.5em;
+  padding-bottom: 1.5em;
+  padding-top: 1.5em;
 }
-
-
+.project{
+  height: 30vh;
+  border-radius:4%;
+  width: 32vh;
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 7em;
+}
+.cover{
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0,0,0,.8);
+  border-radius: 4%;
+  color: white;
+  position: relative;
+  font-size: 10px;
+  display: none;
+}
+.cover h2{
+  position: absolute;
+  top: 0;
+  margin: 0 auto;
+  padding-left: .25em;
+}
+.cover p{
+  position: absolute;
+  bottom: 0;
+}
+.care4kids{
+  background-color: #068263;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url("../images/Care4Kids.png");
+  background-size: 80%;
+  font-family: 'Quicksand', sans-serif;
+}
+.ttt{
+  position: relative;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url("../images/TTT-background.png");
+  background-size: 100% 100%;
+  font-family: 'Bungee', cursive;
+}
 .projectheader p {
   text-align: center;
   font-size: 2em;
 }
-.projectTitanic, .projectCare4Kids{
-  height: 10em;
-  cursor: pointer;
-  width: 10em;
-  margin-top: 2em;
-}
 .care p{
   text-align: center;
-}
-.projectTitanic{
-  background-color: #275AA3;
-  position: relative;
-  height: 9.5em;
-  width: 9.5em;
-  /*overflow: hidden;*/
-  border-radius: 50%;
-}
-.tic-tac p{
-  margin-top: 6em;
-  margin-left: 2.5em;
-  font-family: 'Bungee', cursive;
-  text-align: center;
-}
-.projectTitanic p{
-  margin-top: 2em;
-}
-/* Bubbles */
-.bubbles {
-  position: absolute;
-  background-color: white;
-  border-radius: 50%;
-  opacity: .50;
-  width: 5px;
-  height: 5px;
-  animation: up 8s infinite;
-  margin-top: 10em;
-}
-
-.bubble-2 {
-  animation: up 6s infinite;
-  margin-left: 4em;
-  width: 8px;
-  height: 8px;
-}
-
-.bubble-3 {
-  opacity: .30;
-  animation: up 9s infinite;
-  margin-left: 6em;
-  width: 6px;
-  height: 6px;
-}
-.bubble-4 {
-  width: 7px;
-  height: 7px;
-  margin-left: 5em;
-  opacity: .60;
-  animation: up 12s infinite;
-}
-.bubble-5 {
-  width: 4px;
-  height: 4px;
-  margin-left: 5.5em;
-  opacity: .45;
-  animation: up 10s infinite;
 }
 @keyframes up {
   100% {
     transform: translateY(-14em);
   }
-}
-.projectheader{
-  margin-top: 3em;
-}
-.projectCare4Kids{
-  background: url("../images/Care4Kids.png");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: 100%;
-  margin-top: 3em;
-
-}
-.careproject{
-  margin-bottom: 3em;
 }
 .care p{
   font-family: 'Quicksand', sans-serif;
@@ -262,40 +218,25 @@ body {
   font-size: 1.5em;
   margin-top: 5.5em;
 }
-
-.contact{
-  font-size: 1.6em;
-}
-.contactInfo{
-  margin-top: 4em;
-}
 a{
   color: black;
 }
 .footer{
   height: 25em;
   background-color: #186885;
-
+  position: relative;
+}
+.footer h2{
+  text-align: center;
+  font-size: 2.2em;
+  font-weight: bold;
+  padding-top: 1em;
 }
 .footer p{
-
   text-align: center;
-  font-size: 2.5em;
-  margin-top: 2em;
-  font-weight: bold;
+  font-size: 1.3em;
+  padding-top: 1em;
 }
-.getintouch{
-  height: 10em;
-  margin-top: 3em;
-  background-color: #186885;
-  align-items: center;
-}
-.getintouch p, .getintouch a{
-  font-size: 1.2em;
-  text-align: center;
-  margin-top: -.25em;
-}
-
 .typed-cursor{
     opacity: 1;
     color: white;
