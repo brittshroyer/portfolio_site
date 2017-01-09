@@ -162,7 +162,7 @@ body {
 .cover{
   height: 100%;
   width: 100%;
-  background-color: rgba(0,0,0,.8);
+  background-color: rgba(0,0,0,.6);
   border-radius: 4%;
   color: white;
   position: relative;
