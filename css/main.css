@@ -141,7 +141,7 @@ body {
 .typewriter{
   height: 35em;
   background-image: url("../images/zwart.jpg");
-  position: relative;
+  /*position: relative;*/
   /*border-right: 2px solid black;*/
 }
 .typebox{
@@ -161,9 +161,10 @@ body {
   color: rgba(211,211,211,.1);
   font-size: 18px;
   font-family: 'Inconsolata', monospace;
-  
-
+  height: 35em;
+  overflow-y: scroll;
 }
+
 .portfolio{
   background-image: url("../images/mochagrunge.png");
   height: auto;
