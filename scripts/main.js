@@ -3,9 +3,7 @@ $(document).ready(function(){
   $(".typebox").typed({
     strings: ["Hey, I'm Britt, a front-end developer in Austin, TX."],
     typeSpeed: 25,
-    showCursor: true,
-    cursorChar: "|",
-    backDelay: 1500
+    showCursor: false
   });
 
   $('#titanic').on('mouseover', function(){
@@ -35,7 +33,7 @@ $(document).ready(function(){
   });
 
   $('.cover').on('mouseout', function(){
-    $(this).fadeOut( "fast", "linear" );
+    $(this).css( "display", "none" );
   });
 
   $('.ttt').on('click', function(){
