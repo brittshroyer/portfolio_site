@@ -24,17 +24,19 @@ $(document).ready(function(){
     console.log("resume buttton working");
   });
 
-  $('.care4kids').on('mouseover', function(){
-    $('.c').fadeIn( "fast", "linear" );
+
+
+
+  $('.cover').on('mouseover', function(){
+    $(this).css('cursor', 'pointer');
   });
 
-  $('.ttt').on('mouseover', function(){
-    $('.t').fadeIn( "fast", "linear" );
-  });
+  
 
-  $('.cover').on('mouseout', function(){
-    $(this).css( "display", "none" );
-  });
+  // $('.cover').on('mouseover', function(){
+  //   $('.cover').fadeIn( "fast", "linear" );
+  //   $(this).css('cursor', 'pointer');
+  // });
 
   $('.ttt').on('click', function(){
     window.location = "https://brittshroyer.github.io/ttt";
@@ -70,7 +72,7 @@ var i=0;
             $(".navbar-fixed-top").removeClass("top-nav-collapse");
         }
     });
-    // jQuery for page scrolling feature - requires jQuery Easing plugin
+    // page scrolling feature - requires jQuery Easing plugin
     $(function() {
         $('a.page-scroll').bind('click', function(event) {
             var $anchor = $(this);
