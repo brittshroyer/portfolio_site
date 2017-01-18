@@ -20,9 +20,7 @@ $(document).ready(function(){
     $(this).css('background-color', 'rgba(100,35,35,1)');
   });
 
-  $('.resume-section').on('click', function(){
-    console.log("resume buttton working");
-  });
+
 
 
 
@@ -31,7 +29,7 @@ $(document).ready(function(){
     $(this).css('cursor', 'pointer');
   });
 
-  
+
 
   // $('.cover').on('mouseover', function(){
   //   $('.cover').fadeIn( "fast", "linear" );
