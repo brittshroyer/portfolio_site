@@ -249,12 +249,12 @@ a{
 }
 .footer{
   height: 35em;
-  background-image: url("../images/cle-skyline.png");
+  background-image: url("../images/footer1.png");
   background-color: #1D242B;
   color: #d3d3d3;
   position: relative;
   background-position: bottom;
-  background-size: 100% 50%;
+  background-size: 100% 130%;
   background-repeat: no-repeat;
 
 
