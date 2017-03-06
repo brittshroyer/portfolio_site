@@ -27,7 +27,7 @@ body {
 #hero{
   height: 75vh;
   background-image: url("../images/hero-image.jpg");
-  background-size: 100% 100%;
+  background-position: 38% 21%;
   background-attachment: fixed;
   position: relative;
   border-bottom: 3px solid black;
@@ -140,7 +140,7 @@ body {
 }
 @keyframes skill7 {
   from { margin-right: 100%; }
-  to   { margin-right: 75%; }
+  to   { margin-right: 65%; }
 }
 @keyframes skill8 {
   from { margin-right: 100%; }
@@ -249,7 +249,7 @@ a{
 }
 .footer{
   height: 35em;
-  background-image: url("../images/footer1.png");
+  background-image: url("../images/cle-skyline.png");
   background-color: #1D242B;
   color: #d3d3d3;
   position: relative;

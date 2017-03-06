@@ -1,7 +1,7 @@
 $(document).ready(function(){
 
   $(".typebox").typed({
-    strings: ["Hey, I'm Britt, a front-end developer in Austin, TX."],
+    strings: ["Hey, I'm Britt, a developer currently in Austin, TX.    Please check out my work below."],
     typeSpeed: 25,
     showCursor: false
   });
@@ -44,9 +44,10 @@ $(document).ready(function(){
 
 });
 
-var i=0;
+
 
   $(window).scroll(function() {
+    var i=0;
     if (($(window).scrollTop()  > $(window).height() / 3) && i<1) {
       $('.skill').removeClass('short');
       $('.skill1').css('animation', 'skill1 2s');
